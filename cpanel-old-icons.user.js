@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cPanel old icons
 // @namespace    https://github.com/simkoG/cpanel-old/
-// @version      1.0
+// @version      1.0.1
 // @description  Replace the cPanel's jupiter theme icons with the old paper_lantern icons.
 // @author       simkoG
 // @match        *://*/*frontend/jupiter*
@@ -44,8 +44,6 @@
     `);
 
     const icon_spritemap_css = GM_getResourceText( "ICON_SPRITEMAP_CSS" );
-
-    console.log( icon_spritemap_css );
 
     GM_addStyle( icon_spritemap_css );
 })();
