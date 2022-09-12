@@ -14,8 +14,8 @@
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @run-at       document-start
-// @updateURL    https://github.com/simkoG/cpanel-old/blob/main/cpanel-old-icons.user.js
-// @downloadURL  https://github.com/simkoG/cpanel-old/blob/main/cpanel-old-icons.user.js
+// @updateURL    https://raw.githubusercontent.com/simkoG/cpanel-old/main/cpanel-old-icons.user.js
+// @downloadURL  https://raw.githubusercontent.com/simkoG/cpanel-old/main/cpanel-old-icons.user.js
 // @supportURL   https://github.com/simkoG/cpanel-old/issues
 // ==/UserScript==
 
