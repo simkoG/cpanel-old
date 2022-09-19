@@ -106,6 +106,7 @@
 }
 
 .icon-dynamic_dns_retro,
+/*
 .icon-group_advanced,
 .icon-group_databases,
 .icon-group_domains,
@@ -114,6 +115,7 @@
 .icon-group_metrics,
 .icon-group_security,
 .icon-group_software,
+*/
 .icon-imunify360,
 .icon-jetbackupcronbackups,
 .icon-jetbackupdbbackups,
@@ -150,6 +152,7 @@
    height: 32px !important;
 }
 
+/*
 .icon-group_advanced {
    background-position: -295px -89px !important;
    width: 30px !important;
@@ -197,6 +200,7 @@
    width: 30px !important;
    height: 30px !important;
 }
+*/
 
 .icon-imunify360 {
    background-position: -5px -5px !important;
