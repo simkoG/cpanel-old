@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cPanel old icons
 // @namespace    https://github.com/simkoG/cpanel-old/
-// @version      1.0.1
+// @version      1.0.2
 // @description  Replace the cPanel's jupiter theme icons with the old paper_lantern icons.
 // @author       simkoG
 // @match        *://*/*frontend/jupiter*
