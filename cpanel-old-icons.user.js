@@ -37,7 +37,7 @@
     const icon_spritemap_png = GM_getResourceURL( "ICON_SPRITEMAP_PNG" );
     GM_addStyle(`
 
-    .icon-dynamic_dns_retro,.icon-group_advanced,.icon-group_databases,.icon-group_domains,.icon-group_email,.icon-group_files,.icon-group_metrics,.icon-group_security,.icon-group_software,.icon-imunify360,.icon-jetbackupcronbackups,.icon-jetbackupdbbackups,.icon-jetbackupdnsbackups,.icon-jetbackupemailbackups,.icon-jetbackupfilesbackups,.icon-jetbackupfullbackups,.icon-jetbackupgdpr,.icon-jetbackupqueue,.icon-jetbackupsettings,.icon-jetbackupsingle,.icon-jetbackupsnapshots,.icon-lvenodejssel,.icon-lvephpsel,.icon-lvepythonsel,.icon-lveresusage,.icon-lverubysel,.icon-multiphp_configuration,.icon-mx_entry,.icon-soft_div_icons,.icon-softaculous,.icon-ssl_management,.icon-ssl_storage,.icon-support,.icon-third_party_plugins,.icon-wp_softaculous {
+    .icon-dynamic_dns_retro,/*.icon-group_advanced,.icon-group_databases,.icon-group_domains,.icon-group_email,.icon-group_files,.icon-group_metrics,.icon-group_security,.icon-group_software,*/.icon-imunify360,.icon-jetbackupcronbackups,.icon-jetbackupdbbackups,.icon-jetbackupdnsbackups,.icon-jetbackupemailbackups,.icon-jetbackupfilesbackups,.icon-jetbackupfullbackups,.icon-jetbackupgdpr,.icon-jetbackupqueue,.icon-jetbackupsettings,.icon-jetbackupsingle,.icon-jetbackupsnapshots,.icon-lvenodejssel,.icon-lvephpsel,.icon-lvepythonsel,.icon-lveresusage,.icon-lverubysel,.icon-multiphp_configuration,.icon-mx_entry,.icon-soft_div_icons,.icon-softaculous,.icon-ssl_management,.icon-ssl_storage,.icon-support,.icon-third_party_plugins,.icon-wp_softaculous {
        background-image: url( "${icon_spritemap_png}" ) !important;
     }
 
