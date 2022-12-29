@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cPanel old icons
 // @namespace    https://github.com/simkoG/cpanel-old/
-// @version      1.0.2
+// @version      1.0.3
 // @description  Replace the cPanel's jupiter theme icons with the old paper_lantern icons.
 // @author       simkoG
 // @match        *://*/*frontend/jupiter*
@@ -24,8 +24,8 @@
 
     // Tampermonkey have a bug, which prvent SVGs from load.
     // https://github.com/Tampermonkey/tampermonkey/issues/1592
-    // const icon_spritemap_svg = GM_getResourceURL( "ICON_SPRITEMAP_SVG" );
-    const icon_spritemap_svg = GM_getResourceURL( "ICON_SPRITEMAP_SVG_ALT" );
+    const icon_spritemap_svg = GM_getResourceURL( "ICON_SPRITEMAP_SVG" );
+    // const icon_spritemap_svg = GM_getResourceURL( "ICON_SPRITEMAP_SVG_ALT" );
     GM_addStyle( `
 
     .icon-addon_domains, .icon-address_importer, .icon-aliases, .icon-analog_stats, .icon-anonymous_ftp, .icon-apache_handlers, .icon-apache_spam_assassin, .icon-api_shell, .icon-api_tokens, .icon-application_manager, .icon-archive, .icon-authentication, .icon-autoresponders, .icon-awstats, .icon-backup, .icon-backup_wizard, .icon-bandwidth, .icon-boxtrapper, .icon-calendar_and_contacts, .icon-canary, .icon-change_language, .icon-change_password, .icon-change_style, .icon-clam_av, .icon-contact_information, .icon-cpanel-site-monitor, .icon-cpu_and_concurrent_connection_usage, .icon-cron_jobs, .icon-default_address, .icon-directory_privacy, .icon-disk_usage, .icon-domains, .icon-dynamic_dns, .icon-email_accounts, .icon-email_deliverability, .icon-email_disk_usage, .icon-email_filters, .icon-email_routing, .icon-encryption, .icon-error_pages, .icon-errors, .icon-file_and_directory_restoration, .icon-file_manager, .icon-forwarders, .icon-ftp_accounts, .icon-ftp_connections, .icon-global_email_filters, .icon-greylisting, .icon-hotlink_protection, .icon-images, .icon-indexes, .icon-ip_blocker, .icon-leech_protection, .icon-lvewpos, .icon-mailing_lists, .icon-manage_calendar_access, .icon-metrics_editor, .icon-mime_types, .icon-mod_security, .icon-multiphp_ini_editor, .icon-multiphp_manager, .icon-mysql_database_wizard, .icon-mysql_databases, .icon-mysql_manager, .icon-optimize_website, .icon-perl_modules, .icon-php, .icon-php_my_admin, .icon-php_pear_packages, .icon-php_pg_admin, .icon-postgresql_database_wizard, .icon-postgresql_databases, .icon-raw_access, .icon-redirects, .icon-remote_mysql, .icon-ruby_gems, .icon-ruby_on_rails, .icon-security_policy, .icon-site_publisher, .icon-site_software, .icon-solr_search_index, .icon-ssh_access, .icon-ssl_tls, .icon-subdomains, .icon-terminal, .icon-tls_status, .icon-tls_wizard, .icon-track_delivery, .icon-track_dns, .icon-two_factor_authentication, .icon-user_manager, .icon-version_control, .icon-visitors, .icon-web_disk, .icon-web_host_manager, .icon-webalizer, .icon-webalizer_ftp, .icon-zone_editor {
