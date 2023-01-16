@@ -7,8 +7,6 @@
 // @match        *://*/*frontend/jupiter*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=cpanel.net
 // @resource     ICON_SPRITEMAP_CSS https://raw.githubusercontent.com/simkoG/cpanel-old/main/icon_spritemap.css
-// @resource     ICON_SPRITEMAP_SVG https://raw.githubusercontent.com/simkoG/cpanel-old/main/icon_spritemap.svg
-// @resource     ICON_SPRITEMAP_PNG https://raw.githubusercontent.com/simkoG/cpanel-old/main/icon_spritemap.png
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
 // @run-at       document-start
