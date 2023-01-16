@@ -106,16 +106,6 @@
 }
 
 .icon-dynamic_dns_retro,
-/*
-.icon-group_advanced,
-.icon-group_databases,
-.icon-group_domains,
-.icon-group_email,
-.icon-group_files,
-.icon-group_metrics,
-.icon-group_security,
-.icon-group_software,
-*/
 .icon-imunify360,
 .icon-jetbackupcronbackups,
 .icon-jetbackupdbbackups,
@@ -151,56 +141,6 @@
    width: 32px !important;
    height: 32px !important;
 }
-
-/*
-.icon-group_advanced {
-   background-position: -295px -89px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_databases {
-   background-position: -295px -129px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_domains {
-   background-position: -295px -169px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_email {
-   background-position: -295px -209px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_files {
-   background-position: -295px -249px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_metrics {
-   background-position: -5px -295px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_security {
-   background-position: -45px -295px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-
-.icon-group_software {
-   background-position: -85px -295px !important;
-   width: 30px !important;
-   height: 30px !important;
-}
-*/
 
 .icon-imunify360 {
    background-position: -5px -5px !important;
